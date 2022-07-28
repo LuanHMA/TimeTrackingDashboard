@@ -14,7 +14,7 @@ export function Profile() {
       <div className={`
         flex items-center justify-start gap-x-3 z-20 
         bg-[#5847eb] rounded-2xl py-7
-        lg:flex-col lg:justify-start lg:items-start lg:p-6
+        lg:flex-col lg:justify-start lg:items-start lg:p-6 lg:pb-[0.5rem]
       `}>
 
         <img 
