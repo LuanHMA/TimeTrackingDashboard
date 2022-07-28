@@ -1,0 +1,7 @@
+import ellipsis from '../assets/image-ellipsis.png'
+import exercise from '../assets/image-exercise.png'
+import play from '../assets/image-play.png'
+import selfCare from '../assets/image-self-care.png'
+import social from '../assets/image-social.png'
+import study from '../assets/image-study.png'
+import work from '../assets/image-work.png'
