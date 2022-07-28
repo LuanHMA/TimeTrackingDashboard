@@ -1,5 +1,5 @@
 import React from 'react';
-import iconPlay from '../assets/icon-play.png'
+import iconPlay from '../assets/image-work.png'
 
 export function Card({title, current, previous, bgColor,source}) {
 
