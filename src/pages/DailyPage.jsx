@@ -7,7 +7,14 @@ export function DailyPage(){
             {
                 data.map(({title,timeframes,bgColor,imgSource},index)=>{
                     return(
-                        <Card key={index} title={title} current={timeframes.daily.current} previous={timeframes.daily.previous} bgColor={bgColor} source={imgSource}/>
+                        <Card 
+                            key={index} 
+                            title={title} 
+                            current={timeframes.daily.current} 
+                            previous={timeframes.daily.previous} 
+                            bgColor={bgColor} 
+                            source={imgSource}
+                        />
                     )
                 })
             }
