@@ -1,7 +1,16 @@
-import ellipsis from '../assets/image-ellipsis.png'
-import exercise from '../assets/image-exercise.png'
-import play from '../assets/image-play.png'
-import selfCare from '../assets/image-self-care.png'
-import social from '../assets/image-social.png'
-import study from '../assets/image-study.png'
-import work from '../assets/image-work.png'
+import Ellipsis from '../assets/image-ellipsis.png'
+import Exercise from '../assets/image-exercise.png'
+import Play from '../assets/image-play.png'
+import SelfCare from '../assets/image-self-care.png'
+import Social from '../assets/image-social.png'
+import Study from '../assets/image-study.png'
+import Work from '../assets/image-work.png'
+
+export const ImageList = [ 
+    Work, 
+    Play,
+    Study,
+    Exercise,
+    Social,
+    SelfCare 
+]

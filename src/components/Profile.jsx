@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfileImg from '../../public/assets/image-jeremy.png';
+import ProfileImg from '../assets/image-jeremy.png';
 import { Link, useLocation } from 'react-router-dom';
 
 export function Profile() {

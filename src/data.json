@@ -16,8 +16,7 @@
         "previous": 128
       }
     },
-    "bgColor": "#ff8c66",
-    "imgSource":"./public/assets/image-work.png"
+    "bgColor": "#ff8c66"
 
   },
   {
@@ -36,8 +35,7 @@
         "previous": 29
       }
     },
-    "bgColor": "#56c2e6",
-    "imgSource": "./public/assets/image-play.png"
+    "bgColor": "#56c2e6"
   },
   {
     "title": "Study",
@@ -55,8 +53,7 @@
         "previous": 19
       }
     },
-    "bgColor": "#ff5c7c",
-    "imgSource":"./public/assets/image-study.png"
+    "bgColor": "#ff5c7c"
   },
   {
     "title": "Exercise",
@@ -74,8 +71,7 @@
         "previous": 18
       }
     },
-    "bgColor": "#4acf81",
-    "imgSource":"./public/assets/image-exercise.png"
+    "bgColor": "#4acf81"
 
   },
   {
@@ -94,8 +90,7 @@
         "previous": 23
       }
     },
-    "bgColor": "#7536d3",
-    "imgSource":"./public/assets/image-social.png"
+    "bgColor": "#7536d3"
 
   },
   {
@@ -114,8 +109,7 @@
         "previous": 11
       }
     },
-    "bgColor": "#f1c65b",
-    "imgSource":"./public/assets/image-self-care.png"
+    "bgColor": "#f1c65b"
 
   }
 ]

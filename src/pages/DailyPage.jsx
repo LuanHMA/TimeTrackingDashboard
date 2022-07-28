@@ -1,11 +1,12 @@
 import { Card } from "../components/Card";
 import data from '../data.json';
+import { ImageList } from '../components/ImageList';
 
 export function DailyPage(){
     return(
         <>
             {
-                data.map(({title,timeframes,bgColor,imgSource},index)=>{
+                data.map(({title,timeframes,bgColor},index)=>{
                     return(
                         <Card 
                             key={index} 
@@ -13,7 +14,7 @@ export function DailyPage(){
                             current={timeframes.daily.current} 
                             previous={timeframes.daily.previous} 
                             bgColor={bgColor} 
-                            source={imgSource}
+                            source={ImageList[index]}
                         />
                     )
                 })

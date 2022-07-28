@@ -11,8 +11,10 @@ export default function App(){
           w-[90%] max-w-[500px] mt-5
           lg:max-w-[1400px] lg:flex-nowrap lg:flex-row lg:justify-center
         `}>
+
           <Profile />
           <CardRoutes />
+
         </div>
       </div>
     </BrowserRouter>
