@@ -1,4 +1,5 @@
 import React from 'react';
+import iconPlay from '../assets/icon-play.png'
 
 export function Card({title, current, previous, bgColor,source}) {
 
@@ -7,7 +8,7 @@ export function Card({title, current, previous, bgColor,source}) {
       
       <div className={`flex justify-end pr-4 rounded-tl-2xl rounded-tr-2xl z-10 h-[74px]`} style={{background: bgColor}}>
         <img 
-          src={source} 
+          src={iconPlay} 
           alt={`Icone da sessão ${title}`}
         />
       </div>
